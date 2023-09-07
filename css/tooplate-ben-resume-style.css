@@ -56,11 +56,19 @@
 
   body {
     font-family: var(--base-font-family);
+
+    /* BACKGROUND */
+    
+    background-image: url('back1.png'); /* Replace 'your-image.jpg' with the path to your image file */
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-position: center center; /* Adjust as needed */
   }
 
   #drefahllogo {
     height: auto;
     max-width: 100%;
+    width: 300px;
   }
   /*---------------------------------------
      TYPOGRAPHY              
@@ -182,19 +190,13 @@
   .navbar {
     padding: 0.3rem 1rem;
     transition: all 500ms ease-in-out;
-    position: absolute;
+    position: fixed;
     z-index: 99;
     top: 0;
     right: 0;
     left: 0;
-    opacity: 0;
-  }
-
-  .navbar.scroll {
-    background: var(--menu-bg-color);
-    padding: 0.5rem 1rem;
-    position: fixed;
     opacity: 1;
+    background: var(--menu-bg-color); /* Add background */
   }
 
   .navbar-brand {
