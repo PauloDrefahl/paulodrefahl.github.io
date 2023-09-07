@@ -58,7 +58,10 @@
     font-family: var(--base-font-family);
   }
 
-
+  #drefahllogo {
+    height: auto;
+    max-width: 100%;
+  }
   /*---------------------------------------
      TYPOGRAPHY              
   -----------------------------------------*/
